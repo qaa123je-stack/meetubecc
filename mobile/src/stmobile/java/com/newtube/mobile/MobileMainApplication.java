@@ -227,6 +227,14 @@ public class MobileMainApplication extends MainApplication {
         // Keep ALL existing TV init: Conscrypt, GlobalPreferences, multidex, the
         // global exception handler and every other View->Activity mapping.
         super.onCreate();
+        // Apply Vietnamese when no language preference has been saved yet.
+        // Preserve a language the user explicitly selected, including system default.
+        com.liskovsoft.sharedutils.prefs.GlobalPreferences languagePrefs =
+                com.liskovsoft.sharedutils.prefs.GlobalPreferences.instance(this);
+        if (languagePrefs.getPreferredLanguage() == null) {
+            languagePrefs.setPreferredLanguage("vi_VN");
+            com.liskovsoft.sharedutils.locale.LocaleUpdater.clearCache();
+        }
         com.newtube.mobile.player.Media3PlayerController.applyHdrSetting(this); // MEETUBE(issue #35)
         // MEETUBE(glass): which screen a sheet in its own activity frosts.
         com.newtube.mobile.ui.common.SheetGlass.track(this, com.newtube.mobile.ui.dialog.MobileAppDialogActivity.class);

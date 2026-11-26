@@ -731,4 +731,56 @@
   <string name="app_restore_desc">LƯU Ý: Tệp zip chứa dữ liệu sao lưu cần được sao chép vào thư mục này theo cách thủ công hoặc sử dụng trình quản lý tệp, chọn \'Mở bằng\'</string>
   <string name="ignore_short_segments">Bỏ qua các đoạn ngắn</string>
   <string name="card_unlocalized_titles">Tiêu đề video chưa được bản địa hóa</string>
+    <!-- Vietnamese strings added to complete the shared UI translation. -->
+    <string name="header_downloads">Tải xuống</string>
+    <string name="dialog_download">Tải xuống</string>
+    <string name="msg_sign_in_to_save">Đăng nhập để lưu video vào danh sách phát</string>
+    <string name="about_app">Giới thiệu về %1$s</string>
+    <string name="about_source_code">Mã nguồn</string>
+    <string name="about_source_code_url" translatable="false">https://github.com/yashoncode/meetube</string>
+    <string name="about_license">Giấy phép</string>
+    <string name="about_license_name" translatable="false">GPLv3</string>
+    <string name="about_license_url" translatable="false">https://github.com/yashoncode/meetube/blob/main/LICENSE</string>
+    <string name="diagnostic_log_send">Gửi nhật ký chẩn đoán</string>
+    <string name="diagnostic_log_send_desc">Dùng cho báo lỗi. Bao gồm video và kênh bạn đã mở; mật khẩu và mã đăng nhập sẽ được loại bỏ</string>
+    <string name="diagnostic_log_subject">%1$s %2$s - nhật ký chẩn đoán</string>
+    <string name="diagnostic_log_failed">Không thể tạo nhật ký chẩn đoán</string>
+    <string name="signed_in_success">Đã đăng nhập</string>
+    <string name="feedback_failed">Không thể gửi nội dung đó lên YouTube. Thử lại nhé.</string>
+    <string name="subscribed_to_channel_name">Đã đăng ký %1$s</string>
+    <string name="unsubscribed_from_channel_name">Đã hủy đăng ký %1$s</string>
+    <string name="subscribe_failed">Không thể đăng ký. Thử lại nhé.</string>
+    <string name="unsubscribe_failed">Không thể hủy đăng ký. Thử lại nhé.</string>
+    <string name="action_undo">Hoàn tác</string>
+    <string name="msg_player_no_connection_retry">Không có kết nối. Ứng dụng sẽ thử lại khi bạn trực tuyến, hoặc chạm Phát để thử lại.</string>
+    <string name="msg_player_no_connection_short">Không có kết nối — đang thử lại…</string>
+    <string name="msg_player_no_connection_tap">Không có kết nối — chạm Phát để thử lại</string>
+    <string name="player_unexpected_error">Lỗi phát lại không mong muốn</string>
+    <string name="unpin_playlist">Gỡ danh sách phát khỏi thanh bên</string>
+    <string name="msg_quality_pin_fallback">%1$s gặp lỗi — đã chuyển chất lượng video này sang Tự động</string>
+    <string name="msg_audio_pin_fallback">Bản âm thanh gặp lỗi — đang dùng âm thanh mặc định cho video này</string>
+    <string name="update_check_failed">Không thể kiểm tra cập nhật. Thử lại sau.</string>
+    <string name="create_playlist_note">LƯU Ý: Danh sách này sẽ không hiển thị trong ứng dụng YouTube</string>
+    <string name="playlist_name_hint">Tên danh sách phát</string>
+    <string name="player_return_youtube_dislike">Số lượt không thích (Return YouTube Dislike)</string>
+    <string name="player_chapter_notification2">Nhấn vào thông báo để chuyển sang chương tiếp theo</string>
+    <string name="channel_sort_failed">Không thể sắp xếp kênh này. Thử lại nhé.</string>
+    <string name="header_live">Trực tiếp</string>
+    <string name="premium_users_only">Chỉ dành cho người dùng Premium. Khắc phục danh sách định dạng video chưa đầy đủ</string>
+    <string name="dont_resize_video_to_fit_dialog">Không thay đổi kích thước video để vừa với hộp thoại</string>
+    <string name="suggestions_horizontally_scrolled">Các đề xuất được cuộn theo chiều ngang</string>
+    <string name="stable_restore">Khôi phục bản ổn định (tất cả dữ liệu sẽ bị mất)</string>
+    <string name="player_time_stretching_desc">Giữ giọng nói tự nhiên khi thay đổi tốc độ. Có thể làm giảm đáng kể hiệu năng trên một số thiết bị.</string>
+    <string name="queue_respects_playback_mode">Hàng chờ tuân theo chế độ phát</string>
+    <string name="install_bridge">Cài đặt cầu nối ATV/Amazon</string>
+    <string name="fix_empty_subs_and_channels">Sửa lỗi mục Kênh đăng ký và Kênh bị trống</string>
+    <string name="rounded_card_corners">Bo tròn góc thẻ</string>
+    <plurals name="hours">
+        <item quantity="one">%s giờ</item>
+        <item quantity="other">%s giờ</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="one">%s giây</item>
+        <item quantity="other">%s giây</item>
+    </plurals>
 </resources>
